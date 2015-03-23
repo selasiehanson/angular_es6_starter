@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <div ng-controller="MainCtrl as mc">
+      <h1> {{ mc.name }} </h1>
+    <script src="jspm_packages/system.js"> </script>
+    <script src="config.js"> </script>
+    <script>
+      System.import('src/app/app').then(function (a){
+          angular.element(document).ready(function (){
+            console.log('test');
+            angular.bootstrap(document, ['sample_app']);
+        });
+      });
+    </script>
+  </body>
+</html>
