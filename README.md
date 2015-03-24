@@ -18,6 +18,11 @@ and
 jspm install
 ```
 
+## Run the sample
+Start the sample with the command  
+```
+gulp
+```
 
 ##Todo
 * App a build step

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title></title>
+     <link rel="stylesheet" href="app/compiled/css/app.css" />
   </head>
   <body>
     <div ng-controller="MainCtrl as mc">
@@ -10,9 +11,8 @@
     <script src="jspm_packages/system.js"> </script>
     <script src="config.js"> </script>
     <script>
-      System.import('src/app/app').then(function (a){
+      System.import('app/src/js/app').then(function (a){
           angular.element(document).ready(function (){
-            console.log('test');
             angular.bootstrap(document, ['sample_app']);
         });
       });
