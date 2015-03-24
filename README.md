@@ -20,6 +20,5 @@ jspm install
 
 
 ##Todo
-* A local server to the gulpfile
 * App a build step
 * Add support for sass
